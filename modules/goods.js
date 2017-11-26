@@ -10,5 +10,5 @@ var productSchema = new Schema({
   "checked":String
 })
 
-module.exports = mongoose.model('Good',productSchema,'users')
+module.exports = mongoose.model('Good',productSchema,'goods')
 //如果不加第三个参数，Good默认关联的文档为goods,加了之后就为指定的文档
